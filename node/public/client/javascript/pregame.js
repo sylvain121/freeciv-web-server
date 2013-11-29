@@ -32,7 +32,7 @@ function pregame_start_game()
 ****************************************************************************/
 function leave_pregame()
 {
-  window.location = "/wireframe.jsp?do=login";
+  window.location = "/wireframe.html?do=login";
 }
 
 /****************************************************************************

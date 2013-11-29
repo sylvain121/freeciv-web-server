@@ -7,7 +7,7 @@ $(document).ready(function() {
   var savegame_count = $.jStorage.get("savegame-count", 0);
 
   if (savegame_count == 0) {
-      var saveHtml = "<tr><td>No savegames found. Please <a href='/wireframe.jsp?do=menu'>start a new game</a>.</td></tr>";
+      var saveHtml = "<tr><td>No savegames found. Please <a href='/wireframe.html?do=menu'>start a new game</a>.</td></tr>";
 
     $('#saveTable tr:last').html(saveHtml);
   

@@ -1,4 +1,4 @@
-
+"use strict";
 /**
  * Module dependencies.
  */
@@ -7,6 +7,7 @@ var express = require('express');
 var WebSocketServer = require('ws').Server;
 var http = require('http');
 var path = require('path');
+var launcher = require('./routes/civLauncher');
 
 var app = express();
 
@@ -41,8 +42,10 @@ app.get('/status', function(req, res){
 
 });
 
+app.get('/CivclientLauncher', launcher.index);
+
 var server = http.createServer(app);
-server.listen(server, function(){
+server.listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
 

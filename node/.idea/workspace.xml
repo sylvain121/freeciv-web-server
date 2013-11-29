@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="" />
+    <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/civLauncher.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/404.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/WEB-INF/resin-web.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/blocks_game.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/compress-js.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/dev.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/file_not_found.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/firefox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/flags.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/freeciv-earth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/freeciv.webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/game_redirect.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/guest_user.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/load.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/menu.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/COPYING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/cleanup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/clients.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_flat_75_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_glass_100_f5f0e5_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_glass_25_cb842e_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_glass_70_ede4d4_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_highlight-hard_100_f4f0ec_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_highlight-hard_75_f5f5b5_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-bg_inset-soft_100_f4f0ec_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-icons_c47a23_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-icons_cb672b_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-icons_f08000_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-icons_f35f07_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-icons_ff7519_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/jquery-ui.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/css/metaserver.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/js/meta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/metaserver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/fallback_find_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/fcdb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/img.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/local.php.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/php_code_find.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/polls.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/versions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/php_code/versions_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/pics/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/private/crontab.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/meta/private/metaserver.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/preload.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/robots.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/scenarios.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/template_call.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/tutorial.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/wireframe.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/xd_receiver.htm" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/webclient/index.jsp" afterPath="$PROJECT_DIR$/public/client/webclient/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/javascript/pregame.js" afterPath="$PROJECT_DIR$/public/client/javascript/pregame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/client/javascript-compressed/savegames.js" afterPath="$PROJECT_DIR$/public/client/javascript-compressed/savegames.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/websocket/webSocket.js" afterPath="$PROJECT_DIR$/server/websocket/webSocket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="freecivWebNode.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1567,43 +1635,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+            <state line="22" column="81" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webSocket.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/websocket/webSocket.js">
+      <file leaf-file-name="civLauncher.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/civLauncher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="106" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CivServer.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/civ/CivServer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.8960177" vertical-offset="0" max-vertical-offset="1005">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clinet.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/client/javascript/clinet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="69" selection-start="1299" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="285">
+            <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.03318584" vertical-offset="0" max-vertical-offset="904">
               <folding />
             </state>
           </provider>
@@ -1616,15 +1657,27 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/routes/status.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routes/root.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/server/websocket/webSocket.js" />
         <option value="$PROJECT_DIR$/server/civ/CivServer.js" />
+        <option value="$PROJECT_DIR$/server/websocket/webSocket.js" />
+        <option value="$PROJECT_DIR$/public/client/wireframe.html" />
+        <option value="$PROJECT_DIR$/public/client/webclient/index.jsp" />
+        <option value="$PROJECT_DIR$/public/client/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/civLauncher.js" />
       </list>
     </option>
   </component>
@@ -1633,7 +1686,7 @@
     <option name="width" value="1921" />
     <option name="height" value="1080" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1690,8 +1743,18 @@
               <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="websocket" />
+              <option name="myItemId" value="freecivWebNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1705,7 +1768,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1719,11 +1786,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="civ" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1735,11 +1806,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../freeciv-proxy/freeciv-proxy.py" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1747,6 +1818,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -1757,23 +1836,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -1814,7 +1885,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1921" height="1080" extended-state="0" />
+    <frame x="-1" y="0" width="1921" height="1080" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1848,93 +1919,88 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/public/client/images/orders/irrigate_default.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/images/orders/irrigate_hover.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/javascript/amplio.tilespec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="795">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6600">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/javascript/bigscreen.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/websocket/webSocket.js">
+    <entry file="file://$PROJECT_DIR$/public/client/javascript/jquery-ui.custom.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="360">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/javascript-compressed/savegames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="904">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/webclient/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="193" selection-start="392" selection-end="392" vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="880">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../freeciv-proxy/freeciv-proxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2060301" vertical-offset="720" max-vertical-offset="2595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/javascript/clinet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="69" selection-start="1299" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/public/client/webclient/pregame.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="904">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/client/javascript/civclient.js">
+    <entry file="file://$PROJECT_DIR$/public/client/webclient/game.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="706" selection-end="706" vertical-scroll-proportion="0.23230088" vertical-offset="0" max-vertical-offset="7095">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/client/js-breakpad/report.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="904">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+        <state line="22" column="81" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.jshintrc">
+    <entry file="file://$PROJECT_DIR$/routes/civLauncher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/websocket/webSocket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="106" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/civ/CivServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.8960177" vertical-offset="0" max-vertical-offset="1005">
+        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.03318584" vertical-offset="0" max-vertical-offset="904">
           <folding />
         </state>
       </provider>

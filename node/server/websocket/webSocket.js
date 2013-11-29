@@ -4,14 +4,14 @@ var clientCounter = 0;
 var CivServer = require('../civ/CivServer');
 
 
-var webSocketServer = function(wss){
+module.exports.webSocketServer = function(wss){
 
     wss.on('connection', function(ws) {
         var user = {
             "id": ++clientCounter,
             "isReady": false
-        }
-        client.push(user);
+        };
+        clients.push(user);
 
 
         ws.on('message', function(message) {
@@ -36,3 +36,4 @@ var webSocketServer = function(wss){
 
     });
 };
+

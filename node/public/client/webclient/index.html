@@ -19,22 +19,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<script>
+    $(document).ready(function() {
+        $('#pregame').load('pregame.html');
+        $('#game').load('game.html');
+    });
+</script>
 
 </head>
 
 <body>
 	
-<%
-  
-  String username = "" + session.getAttribute("username");
-  if (username == null || "null".equals(username)) {
-	// User isn't logged in.
-	response.sendRedirect("/wireframe.jsp?do=login");
-  }
-%>
-
-    <jsp:include page="pregame.jsp" flush="false"/>
-    <jsp:include page="game.jsp" flush="false"/>
+    <div id="pregame"></div>
+    <div id="game"></div>
     
  
 </body>

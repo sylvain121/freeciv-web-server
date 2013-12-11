@@ -1,416 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/bluecurve.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/civclient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/fg.menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/forum-fix.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_flat_30_cccccc_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_flat_50_5c5c5c_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_glass_20_555555_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_glass_40_0078a3_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_glass_40_ffc73d_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_gloss-wave_25_333333_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_highlight-hard_20_0972a5_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_highlight-soft_33_003147_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_highlight-soft_35_222222_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_highlight-soft_44_444444_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_inset-soft_25_000000_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_inset-soft_30_f58400_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-bg_loop_25_000000_21x21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-icons_4b8e0b_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-icons_a83300_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-icons_cccccc_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/jplayer.blue.monday.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/jquery-ui.custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/openid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/css/pregame.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/ai-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/america.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/aol.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/black-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/blogger.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/british.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/chrome-web-store.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/chrome-ws.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/claimid.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/europe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/facebook-share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/facebook.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/facebookimg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/fb_header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/flickr.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/france.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-blog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-icon-facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-iphone-screenshot-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-net-iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-shortcut-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-splash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-splash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-splash2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-splash3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-web-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv-web-screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv_login.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/freeciv_login_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/google.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/gov.anarchy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/gov.communism.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/gov.democracy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/gov.despotism.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/gov.monarchy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/gov.republic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/hagworld.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/handle.horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/handle.vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/header_iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/header_small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/horizontal.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/html5logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/iberian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/info.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/italy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/japan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/join.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/jplayer.blue.monday.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/livejournal.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/mapview_ui.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/mute.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/myopenid.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/observe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/opaque-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/openid-inputicon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/openid.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/openid_logo_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/auto_attack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/auto_explore_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/auto_explore_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/auto_explore_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/auto_settlers_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/auto_settlers_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/auto_settlers_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/build_city_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/build_city_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/build_city_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/disband_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/disband_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/disband_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/fortify_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/fortify_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/fortify_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/goto_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/goto_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/goto_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/irrigate_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/irrigate_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/irrigate_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/irrigation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/load.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/mine_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/mine_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/mine_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/no_orders.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/nuke.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/paradrop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/patrol.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/pillage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/railroad_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/railroad_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/railroad_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/road.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/road_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/road_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/road_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/sentry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/sentry_clicked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/sentry_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/sentry_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/unload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/orders/wait.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/pcgamer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/percentImage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/percentImage_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/player-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/technorati.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/translucent54-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/twitter-share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/twitterimg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/units.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/verisign.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/verisign.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/version-1.1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/vertical.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/vidoop.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/wordpress.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/world_large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/images/yahoo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript-compressed/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript-compressed/compiler.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript-compressed/freeciv-web-source-map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript-compressed/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript-compressed/savegames.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript-compressed/waterbug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/amplio.tilespec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/bigscreen.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/bmp_lib.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/city.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/civclient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/client_main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/climap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/clinet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/connection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/control.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/diplomacy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/diplomat_dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/effects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/fc_types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/fg.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/government.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/improvement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/jquery-ui.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/js_breakpad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/json2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/jstorage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/mapctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/mapview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/mapview_common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/nation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/overview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/packhand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/pregame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/range.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/rates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/reqtree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/requirements.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/savegame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/specialist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/stacktrace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/tech.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/terrain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/tile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/tilespec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/timer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/unit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/unittype.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/utility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/javascript/vision.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/js-breakpad/report.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/buildings.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/cities.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/combat.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/controls.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/diplomacy.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/economy.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/government.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Arctic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.airport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.apollo_program.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.aqueduct.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.asmiths_trading_co.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.bank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.barracks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.barracks2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.barracks3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.capitalization.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.cathedral.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.city_walls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.coastal_defense.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.colosseum.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.colossus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.copernicus_observatory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.courthouse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.cure_for_cancer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.darwins_voyage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.eiffel_tower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.factory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.granary.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.great_library.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.great_wall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.hanging_gardens.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.harbour.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.hoover_dam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.hydro_plant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.isaac_newtons_college.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.js_bachs_cathedral.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.king_richards_crusade.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.leonardos_workshop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.library.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.lighthouse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.magellans_expedition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.manhattan_project.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.marco_polos_embassy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.marketplace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.mass_transit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.mfg_plant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.michelangelos_chapel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.nuclear_plant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.offshore_platform.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.oracle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.palace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.police_station.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.port_facility.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.power_plant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.pyramids.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.recycling_center.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.research_lab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.sam_battery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.sdi_defense.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.seti_program.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.sewer_system.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.shakespeares_theatre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.space_component.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.space_modules.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.space_structural.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.statue_of_liberty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.stock_exchange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.sun_tzus_war_academy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.super_highways.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.supermarket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.temple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.united_nations.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.university.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/B.womens_suffrage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Citywork21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Desert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Forest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Gov.anarchy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Gov.communism.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Gov.democracy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Gov.despotism.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Gov.monarchy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Gov.republic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Grassland.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Hills.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Jungle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Mountains.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ocean.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Plains.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Swamp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.arctic_ivory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.arctic_oil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.buffalo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.coal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.fish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.fruit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.furs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.gems.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.gold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.grassland_resources.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.iron.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.oasis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.oil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.peat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.pheasant.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.silk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.spice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.tundra_game.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.whales.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.wheat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Ts.wine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tundra.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.airbase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.farmland.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.fortress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.irrigation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.mine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.rail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.river.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.road.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/Tx.village.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.aegis_cruiser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.alpine_troops.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.archers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.armor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.artillery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.awacs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.battleship.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.bomber.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.cannon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.caravan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.caravel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.carrier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.catapult.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.cavalry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.chariot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.cruise_missile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.cruiser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.destroyer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.diplomat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.dragoons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.engineers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.explorer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.fighter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.freight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.frigate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.galleon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.helicopter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.horsemen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.howitzer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.ironclad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.knights.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.legion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.marines.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.mech_inf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.musketeers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.nuclear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.paratroopers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.partisan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.phalanx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.pikemen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.riflemen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.settlers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.spy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.stealth_bomber.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.stealth_fighter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.submarine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.transport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.trireme.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.warriors.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/images/U.worker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/overview.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/technology.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/terrain.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/units.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/manual/wonders.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/savegames/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/canvas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/city.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/civilization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/game.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/help.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/nations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/options.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/orders.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/pregame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/session.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/client/webclient/technologies.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
-    </list>
+    <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="" />
     <ignored path="freecivWebNode.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1386136710149" ignored="false" />
+    <file path="/Dummy.txt" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1386742478324" ignored="false" />
     <file path="/index.html" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1386141315995" ignored="false" />
     <file path="/game.jsp" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1385918313612" ignored="false" />
     <file path="/canvas.html" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1385918525964" ignored="false" />
@@ -1974,44 +1568,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/webclient/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="5585" selection-end="5619" vertical-scroll-proportion="-1.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/webclient/game.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="-6.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="canvas.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/webclient/canvas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.12096774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/webclient/session.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -2079,7 +1636,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2164,16 +1720,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../freeciv-proxy/freeciv-proxy.py" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2243,7 +1800,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2320,6 +1877,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/webclient/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="5585" selection-end="5619" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/webclient/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/webclient/canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/webclient/session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/civLauncher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.03318584" />
@@ -2330,46 +1915,40 @@
         <state line="22" column="81" selection-start="597" selection-end="597" vertical-scroll-proportion="0.33628318" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/webclient/session.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascript/amplio.tilespec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/webclient/pregame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/webclient/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="-6.875">
+        <state line="11" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/webclient/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="5585" selection-end="5619" vertical-scroll-proportion="-1.75">
+        <state line="85" column="0" selection-start="5585" selection-end="5619" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/webclient/canvas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.12096774">
+        <state line="3" column="7" selection-start="89" selection-end="89" vertical-scroll-proportion="0.02586207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/webclient/session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>

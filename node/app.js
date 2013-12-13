@@ -30,27 +30,42 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', function(req, res){
-    res.write("Freeciv-web websocket proxy, port: " + app.get('port'));
-    res.end();
+app.get('/', function (req, res) {
+  res.write("Freeciv-web websocket proxy, port: " + app.get('port'));
+  res.end();
 
 });
 
-app.get('/status', function(req, res){
-    res.write("getStatus");
-    res.end();
+app.get('/status', function (req, res) {
+  res.write("getStatus");
+  res.end();
 
+});
+app.get("/webSocketTest", function(req, res){
+  var WebSocket = require('ws');
+  var ws = new WebSocket('ws://192.168.204.81:3000/');
+  ws.on('open', function() {
+      ws.send('something');
+  });
+  ws.on('message', function(data, flags) {
+      // flags.binary will be set if a binary data is received
+      // flags.masked will be set if the data was masked
+  });
 });
 
 app.get('/CivclientLauncher', launcher.index);
 
 var server = http.createServer(app);
-server.listen(app.get('port'), function(){
+server.listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });
 
-var wss = new WebSocketServer({server: server});
+var wss = new WebSocketServer(
+  {
+    server: server
+  });
 require('./server/websocket/webSocket.js').webSocketServer(wss);
+
 
 
 

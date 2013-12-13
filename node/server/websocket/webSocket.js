@@ -7,6 +7,7 @@ var CivServer = require('../civ/CivServer');
 module.exports.webSocketServer = function(wss){
 
     wss.on('connection', function(ws) {
+        console.log("new client connection on websocket");
         var user = {
             "id": ++clientCounter,
             "isReady": false
@@ -15,6 +16,7 @@ module.exports.webSocketServer = function(wss){
 
 
         ws.on('message', function(message) {
+            console.log("on Data Received");
             if(!user.isReady){
                 var data = JSON.parse(message);
                 user.username = data['username'];

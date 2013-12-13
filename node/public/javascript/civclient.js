@@ -42,7 +42,7 @@ $(document).ready(function() {
 function civclient_init() 
 {
 
-  setup_crash_reporting();
+ /* setup_crash_reporting();
 
   if (window['loadFirebugConsole']) {
 	window.loadFirebugConsole();
@@ -57,7 +57,7 @@ function civclient_init()
           }
 
 	}
-  }
+  }*/
 
 
   game_init();

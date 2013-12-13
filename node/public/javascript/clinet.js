@@ -34,7 +34,7 @@ function network_init()
     return;
   }
 
-  ws = new WebSocket("ws://" + window.location.hostname + "/civsocket");
+  ws = new WebSocket("ws://" + window.location.hostname + ":" +window.location.port+"/");
 
   ws.onopen = function () {
     var login_message = {"type":4, "username" : username,

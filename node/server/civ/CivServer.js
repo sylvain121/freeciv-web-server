@@ -12,7 +12,7 @@ var port = 0;
 var buffer = new Buffer(1024, 'binary');
 
 
-var CivServer = function(ws, host, port, loginPacket) {
+function CivServer(ws, host, port, loginPacket) {
 
         this.ws = ws;
         this.host = host;
@@ -33,12 +33,14 @@ var CivServer = function(ws, host, port, loginPacket) {
         });
 
         this.sendToCivServer(loginPacket);
-};
+}
 
 
 CivServer.prototype.sendToCivServer = function(JSONPacket){
-        var header = bufferPack.pack('>HH', JSONPacket.length(), 0);
+        console.log("JSON Packet", JSONPacket);
+        var header = bufferPack.pack('>HH', JSONPacket.length, 0);
         TCPClient.write(header + JSONPacket.toString + '\0');
+        console.log("packet send to civServer", header + JSONPacket.toString + '\0');
 };
 
 
@@ -55,7 +57,4 @@ CivServer.prototype.checkReceivePacket = function(data){
           }
 };
 
-
-
-
-
+module.exports = CivServer;

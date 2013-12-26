@@ -39,8 +39,8 @@ function CivServer(ws, host, port, loginPacket) {
 CivServer.prototype.sendToCivServer = function(JSONPacket){
         console.log("JSON Packet", JSONPacket);
         var header = bufferPack.pack('>HH', JSONPacket.length, 0);
-        TCPClient.write(header + JSONPacket.toString + '\0');
-        console.log("packet send to civServer", header + JSONPacket.toString + '\0');
+        TCPClient.write(header + JSONPacket.toString + 0x00);
+        console.log("packet send to civServer", header + JSONPacket.toString + 0x00);
 };
 
 

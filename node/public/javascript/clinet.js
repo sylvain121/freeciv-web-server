@@ -33,8 +33,8 @@ function network_init()
     alert("WebSockets not supported");
     return;
   }
-
-  ws = new WebSocket("ws://" + window.location.hostname + ":" +window.location.port+"/");
+  ws = new WebSocket("ws://" + window.location.hostname + "/civsocket");
+  //ws = new WebSocket("ws://" + window.location.hostname + ":" +window.location.port+"/");
 
   ws.onopen = function () {
     var login_message = {"type":4, "username" : username,

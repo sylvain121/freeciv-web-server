@@ -132,6 +132,7 @@ class CivCom(Thread):
     header = pack('>HH', len(net_packet_json), 0);
     try:
       # Send packet to civserver
+      print(header + str(net_packet_json).encode('utf-8') + b'\0');
       self.socket.sendall(header + str(net_packet_json).encode('utf-8') + b'\0');
       return True;
     except:

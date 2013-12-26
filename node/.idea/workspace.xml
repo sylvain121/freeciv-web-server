@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascript/var.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/civ/CivServer.js" afterPath="$PROJECT_DIR$/server/civ/CivServer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/webclient/javascript.html" afterPath="$PROJECT_DIR$/public/webclient/javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="" />
     <ignored path="freecivWebNode.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387881647851" ignored="false" />
+    <file path="/Dummy.txt" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387890768331" ignored="false" />
     <file path="/javascript.html" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387878515983" ignored="false" />
     <file path="/var.js" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387881999406" ignored="false" />
     <file path="/CivServer.js" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387882434140" ignored="false" />
@@ -1604,7 +1598,7 @@
       <file leaf-file-name="CivServer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/civ/CivServer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="47" selection-start="1235" selection-end="1235" vertical-scroll-proportion="1.0680101">
+            <state line="45" column="47" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.5413907">
               <folding />
             </state>
           </provider>
@@ -1678,7 +1672,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1781,18 +1774,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../freeciv-proxy/freeciv-proxy.py" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1862,7 +1856,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24900557" sideWeight="0.67194927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24900557" sideWeight="0.67194927" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2027,7 +2021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/civ/CivServer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="47" selection-start="1235" selection-end="1235" vertical-scroll-proportion="1.0680101">
+        <state line="45" column="47" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.5413907">
           <folding />
         </state>
       </provider>

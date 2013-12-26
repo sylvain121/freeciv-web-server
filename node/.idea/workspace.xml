@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../freeciv-proxy/civcom.py" afterPath="$PROJECT_DIR$/../freeciv-proxy/civcom.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/civ/CivServer.js" afterPath="$PROJECT_DIR$/server/civ/CivServer.js" />
@@ -10,6 +11,15 @@
     </list>
     <ignored path="freecivWebNode.iws" />
     <ignored path=".idea/workspace.xml" />
+=======
+    <list default="true" id="345db624-ed53-4200-b715-07b9c0536c2d" name="Default" comment="" />
+    <ignored path="freecivWebNode.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387890768331" ignored="false" />
+    <file path="/javascript.html" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387878515983" ignored="false" />
+    <file path="/var.js" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387881999406" ignored="false" />
+    <file path="/CivServer.js" changelist="345db624-ed53-4200-b715-07b9c0536c2d" time="1387882434140" ignored="false" />
+>>>>>>> 077bc48c9cb429e6ab5db7d922dcef1c9d6ccb2c
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1600,6 +1610,7 @@
       <file leaf-file-name="CivServer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/civ/CivServer.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="41" column="55" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.77319586" vertical-offset="90" max-vertical-offset="975">
               <folding />
             </state>
@@ -1610,6 +1621,9 @@
         <entry file="file://$PROJECT_DIR$/public/javascript/clinet.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="35" column="72" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+=======
+            <state line="45" column="47" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.5413907">
+>>>>>>> 077bc48c9cb429e6ab5db7d922dcef1c9d6ccb2c
               <folding />
             </state>
           </provider>
@@ -1809,7 +1823,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1704918" sideWeight="0.6720379" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24900557" sideWeight="0.67194927" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 077bc48c9cb429e6ab5db7d922dcef1c9d6ccb2c
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1924,7 +1942,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/civ/CivServer.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="41" column="55" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.77319586" vertical-offset="90" max-vertical-offset="975">
+=======
+        <state line="45" column="47" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.5413907">
+>>>>>>> 077bc48c9cb429e6ab5db7d922dcef1c9d6ccb2c
           <folding />
         </state>
       </provider>

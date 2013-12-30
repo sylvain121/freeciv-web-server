@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: latin-1 -*-
 
-''' 
- Freeciv - Copyright (C) 2011-2013 - Andreas RÃ¸sdal   andrearo@pvv.ntnu.no
+'''
+ Freeciv - Copyright (C) 2011-2013 - Andreas Røsdal   andrearo@pvv.ntnu.no
    This program is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
    the Free Software Foundation; either version 2, or (at your option)
@@ -52,15 +52,16 @@ class WSHandler(websocket.WebSocketHandler):
     def on_message(self, message):
         if (not self.is_ready):
           #called the first time the user connects.
+          print("first connection");
           login_message = json.loads(message);
           self.username = login_message['username'];
           self.civserverport = login_message['port'];
           self.loginpacket = message;
           self.is_ready = True;
           self.civcom = self.get_civcom(self.username, self.civserverport, self);
-          return; 
-        
-        # get the civcom instance which corresponds to this user.        
+          return;
+
+        # get the civcom instance which corresponds to this user.
         self.civcom = self.get_civcom(self.username, self.civserverport, self);
 
         if (self.civcom == None):
@@ -74,7 +75,7 @@ class WSHandler(websocket.WebSocketHandler):
               logger.info("Sending data to civserver failed.");
             self.write_message('Error: Civserver communication failure ')
             return;
- 
+
         except:
           if (logger.isEnabledFor(logging.ERROR)):
             logger.error("Service unavailable: freeciv-web down.");
@@ -84,7 +85,7 @@ class WSHandler(websocket.WebSocketHandler):
 
     def on_close(self):
        self.clients.remove(self)
-       if hasattr(self, 'civcom') and self.civcom != None: 
+       if hasattr(self, 'civcom') and self.civcom != None:
           self.civcom.stopped = True;
           self.civcom.close_connection();
           if self.civcom.key in list(civcoms.keys()):
@@ -138,11 +139,11 @@ class CivWsMessenger(Thread):
 if __name__ == "__main__":
   try:
     print('Started Freeciv-proxy. Use Control-C to exit');
- 
+
     if len(sys.argv) == 2:
       PROXY_PORT = int(sys.argv[1]);
     print(('port: ' + str(PROXY_PORT)));
- 
+
     LOG_FILENAME = '/tmp/logging' +str(PROXY_PORT) + '.out'
     #logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO)
     logging.basicConfig(level=logging.INFO)

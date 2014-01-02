@@ -9,6 +9,7 @@ function client_handle_packet(p)
     switch (packet_type) {
 
     case  0:
+      console.log("passe bien la");
       handle_processing_started(p[i]);
       break;
 

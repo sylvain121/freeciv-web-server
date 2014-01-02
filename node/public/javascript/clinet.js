@@ -34,7 +34,7 @@ function network_init()
     return;
   }
   //console.log("ws://192.168.1.2:8002/civsocket");
-  //ws = new WebSocket("ws://192.168.1.2:8002/civsocket");
+  //ws = new WebSocket("ws://192.168.1.106:8002/civsocket");
   ws = new WebSocket("ws://" + window.location.hostname + ":" +window.location.port+"/");
 
   ws.onopen = function () {
@@ -84,7 +84,7 @@ function network_stop()
 function send_request(packet_payload) 
 {
   ws.send(packet_payload);
-
+  console.log(packet_payload);
   if (debug_active) {
     clinet_last_send = new Date().getTime();
   }

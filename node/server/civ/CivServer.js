@@ -8,68 +8,90 @@ var TCPClient = new net.Socket();
 var ws;
 var host = "";
 var port = 0;
-var buffer = "";
+var modulo;
 
 function CivServer(ws, host, port, loginPacket) {
 
-  this.ws = ws;
-  this.host = host;
-  this.port = port;
+    this.modulo = new Buffer(0);
+    this.ws = ws;
+    this.host = host;
+    this.port = port;
+    var that = this;
+    TCPClient.connect(this.port, this.host, function () {
+        console.log('CONNECTED TO: ' + that.host + ':' + that.port);
+    });
 
-  TCPClient.connect(this.port, this.host, function () {
-    console.log('CONNECTED TO: ' + this.host + ':' + this.port);
-  });
+    TCPClient.on('data', function (data) {
+        that.dataSocketHandler(data);
+    });
 
-  TCPClient.on('data', function (data) {
-    console.log(data.toString("utf8").split("\0\0"));
+    TCPClient.on('end', function () {
+        console.log('there will be no more data.');
+    });
 
-  });
-
-  TCPClient.on('end', function() {
-
-    console.log('there will be no more data.');
-  });
-
-  TCPClient.on('close', function () {
-    console.log('Connection closed');
-  });
-
-  this.sendToCivServer(loginPacket);
+    TCPClient.on('close', function () {
+        console.log('Connection closed');
+    });
 }
 
 /**
- * b'\x00\xa8\x00\x00{"type":4,"username":"test","capability":"+Freeciv.Web.Devel-2.6-2013.May.25","version_label":"-dev","major_version":2,"minor_version":4,"patch_version":99,"port":5556}\x00'
- * b'\x00\x0b\x00\x00{"type":89}\x00'
- * lenght 168
+ * @method socket data event Handler
+ * @param {Buffer} brut data from socket
+ */
+CivServer.prototype.dataSocketHandler = function (data) {
+    this.rowToPacket(data);
+};
+/**
+ * @method format en send packet to freeciv server
+ * @param {String} JSONPacket
  */
 CivServer.prototype.sendToCivServer = function (JSONPacket) {
-  var header = new Buffer(4);
-  header[0] = 0;
-  header[1] = parseInt(JSONPacket.length, 10);
-  header[2] = 0;
-  header[3] = 0;
-
-  var body = new Buffer(JSONPacket, 'utf-8');
-  var endChar = new Buffer(1);
-  endChar[0] = 0x00;
-  //console.log(header);
-  var packet = Buffer.concat([header, body, endChar]);
-  TCPClient.write(packet);
-  //console.log("sending packet : ", packet);
+    var header = new Buffer(4);
+    header.writeUInt16BE(JSONPacket.length, 0);
+    header.writeUInt16BE(0, 2);
+    var body = new Buffer(JSONPacket, 'utf-8');
+    var endChar = new Buffer(1);
+    endChar[0] = 0x00;
+    var packet = Buffer.concat([header, body, endChar]);
+    TCPClient.write(packet);
 };
 
 CivServer.prototype.getCivServerInstance = function (username, civServerPort, ws) {
 
 };
 
-CivServer.prototype.checkReceivePacket = function (data) {
-  buffer.write(data);
-  console.log("receive packet", data);
-  if (buffer.length >= MAX_LEN_PACKET) {
-    var packet = buffer.toString('utf8', 0, MAX_LEN_PACKET - 1);
-    buffer = buffer.slice(0, MAX_LEN_PACKET - 1);
-    this.ws.send(packet);
-  }
+/**
+ * @method decode freeciv packet from server to object
+ * @param {Buffer} data socket
+ */
+CivServer.prototype.rowToPacket = function (d) {
+    var that = this;
+    var data = Buffer.concat([this.modulo, d]);
+    decodeToJsonArray(data, function (err, res, modulo) {
+        that.ws.send(JSON.stringify(res));
+        that.modulo = modulo;
+    });
 };
 
+/**
+ * @method convert string to Array of Object
+ * @param {String} data
+ * @param {Function} callback [err, result, modulo]
+ */
+function decodeToJsonArray(data, cb) {
+    var result = [];
+    while (data.length > 1) {
+        var packetLength = data.readUInt16BE(0);
+        var packet = data.slice(4, packetLength - 1);
+        if (packetLength <= data.length) {
+            result.push(JSON.parse(packet.toString()));
+            data = data.slice(packetLength);
+        } else {
+            break;
+        }
+    }
+    cb(null, result, data);
+
+
+}
 module.exports = CivServer;

@@ -17,6 +17,7 @@ module.exports.webSocketServer = function(wss){
 
         ws.on('message', function(message) {
             console.log("on Data Received");
+            console.log(message);
             if(!user.isReady){
                 var data = JSON.parse(message);
                 user.username = data['username'];

@@ -1,3 +1,0 @@
-ggzserver.lo: ggzserver.c ../fc_config.h
-
-../fc_config.h:

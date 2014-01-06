@@ -41,16 +41,11 @@ app.get('/status', function (req, res) {
   res.end();
 
 });
-app.get("/webSocketTest", function(req, res){
-  var WebSocket = require('ws');
-  var ws = new WebSocket('ws://192.168.204.81:3000/');
-  ws.on('open', function() {
-      ws.send('something');
-  });
-  ws.on('message', function(data, flags) {
-      // flags.binary will be set if a binary data is received
-      // flags.masked will be set if the data was masked
-  });
+app.get("/test", function(req, res){
+    var Server = require("./server/civ/CivServerController.js");
+    var instance = new Server(10000);
+    console.log(instance.getPid());
+    instance.kill();
 });
 
 app.get('/CivclientLauncher', launcher.index);

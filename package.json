@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "express": "3.4.4",
-    "ws": "~0.4.31"
+    "ws": "~0.4.31",
+    "underscore": "~1.5.2"
   }
 }

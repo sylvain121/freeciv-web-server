@@ -2,7 +2,7 @@
 /**
  * @class singleton : Manage freeciv-server instance
  */
-
+var controller = require("./CivServerController.js");
 var instance,
     portMin,
     portMax,
@@ -19,50 +19,60 @@ function ServerManager(portMin, portMax) {
     this.dataManager = [];
     this.dataManager.length = this.portMax - this.portMin;
 }
+/**
+ * @method return the manager instance
+ * @param {Function} cb return [err, managerInstance]
+ */
+module.exports.getInstance = function (cb) {
+    if (this.instance === undefined) {
+        this.instance = new ServerManager(10000, 11000);
+    }
+    cb(null, this.instance);
+};
 
 /**
- * @method request new serveur instance
- * @param {String}username
- * @param {Function} Callback [err, CivServerObject]
+ * @method create a new server
+ * @param {Object} user object
+ * @param {Function} cb [err, port]
  */
-ServerManager.prototype.LaunchNewServer = function (username, cb) {
-    startServer(this, username, function (err, res) {
-
-    });
-};
-
-module.exports.getInstance = function (cb) {
-    if (instance === undefined) {
-        instance = new ServerManager(10000, 11000);
-    }
-    cb(null, instance);
-};
-
-function startServer(that, username, cb) {
-    getFreePort(that, function (err, port) {
+module.exports.createServer = function (user, cb) {
+    this.instance.getFreeResource(user.username, function (err, port) {
         if (err) {
             return cb(err);
         }
-        launchServerProc(port, function (err, pid) {
+        this.instance.startNewServer(port, function (err, ok) {
             if (err) {
                 return cb(err);
             }
-            var server = {
-                username: username,
-                pid: pid
-            };
-            that.dataManager[port - that.portMin ] = server;
             cb(null, port);
         });
     });
-}
 
-function getFreePort(that, cb) {
-    var l = that.dataManager.length;
-    for( var i= 0; i < l; i++ ){
-        if(typeof that.dataManager[i] !== "object" ){
-          cb(null, that.portMin + i);
+};
+/**
+ * @method : get a free port from the datamanager
+ * @param {String} username
+ * @param {Function} cb [err, port]
+ */
+ServerManager.prototype.getFreeResource = function (username, cb) {
+    for (var i = 0; i < this.dataManager.length; i++) {
+        if (this.dataManager[i] === null) {
+            this.dataManager[i] = {
+                "username": username
+            };
+            cb(null, this.dataManager[i] + this.portMin);
         }
     }
-    cb("datamanager full");
-}
+    cb("dataManager full");
+};
+
+ServerManager.prototype.startNewServer = function (port, cb) {
+    var serverControl = new controller(port);
+    updateDataManagerByport(serverControl, port, function (err, res) {
+        if (err) {
+            return cb(err);
+        }
+        cb(null, res);
+    });
+};
+

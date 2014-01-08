@@ -30,7 +30,7 @@ CivServerController.prototype.getPid = function (){
 
 CivServerController.prototype.kill = function(){
     serverRunTime.kill('SIGHUP');
-}
+};
 
 
 module.exports = CivServerController;

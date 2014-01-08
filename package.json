@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "preinstall": "sudo npm i -g mocha"
   },
   "dependencies": {
     "express": "3.4.4",
     "ws": "~0.4.31",
-    "underscore": "~1.5.2"
+    "underscore": "~1.5.2",
+    "chai": "~1.8.1"
   }
 }

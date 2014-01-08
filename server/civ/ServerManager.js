@@ -17,7 +17,7 @@ function ServerManager(portMin, portMax) {
     this.portMin = portMin;
     this.portMax = portMax;
     this.dataManager = [];
-    dataManager.length = this.portMax - this.portMin;
+    this.dataManager.length = this.portMax - this.portMin;
 }
 
 /**
@@ -26,7 +26,7 @@ function ServerManager(portMin, portMax) {
  * @param {Function} Callback [err, CivServerObject]
  */
 ServerManager.prototype.LaunchNewServer = function (username, cb) {
-    startServer(username, function (err, res) {
+    startServer(this, username, function (err, res) {
 
     });
 };
@@ -38,8 +38,8 @@ module.exports.getInstance = function (cb) {
     cb(null, instance);
 };
 
-function startServer(username, cb) {
-    getFreePort(function (err, port) {
+function startServer(that, username, cb) {
+    getFreePort(that, function (err, port) {
         if (err) {
             return cb(err);
         }
@@ -51,17 +51,17 @@ function startServer(username, cb) {
                 username: username,
                 pid: pid
             };
-            this.dataManager[port - this.portMin ] = server;
+            that.dataManager[port - that.portMin ] = server;
             cb(null, port);
         });
     });
 }
 
-function getFreePort(cb) {
-    var l = this.dataManager.length;
+function getFreePort(that, cb) {
+    var l = that.dataManager.length;
     for( var i= 0; i < l; i++ ){
-        if(typeof this.dataManager[i] !== "object" ){
-          cb(null, this.portMin + i);
+        if(typeof that.dataManager[i] !== "object" ){
+          cb(null, that.portMin + i);
         }
     }
     cb("datamanager full");

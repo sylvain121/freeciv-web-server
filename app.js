@@ -41,6 +41,11 @@ app.get('/status', function (req, res) {
   res.end();
 
 });
+app.get('/testServer', function(req, res){
+  var Manager = require("./server/civ/ServerManager");
+  Manager.getInstance(function(err, instance){
+  });
+});
 app.get("/test", function(req, res){
     var Server = require("./server/civ/CivServerController.js");
     var instance = new Server(10000);

@@ -2,33 +2,26 @@ var assert = require("chai").assert;
 
 var ServerManager = require("../../server/civ/ServerManager");
 
-describe("test ServerManager Singleton", function () {
-    describe("access to singleton", function () {
-        it("Should return singleton instance", function (done) {
-            ServerManager.getInstance(function (err, instance) {
-                if (err) {
-                    return assert.notOk(err);
-                }
-                assert.deepEqual(typeof instance, "object");
-                done();
-            });
-        });
+var username = "test",
+    title = "my test party",
+    Gparty;
 
 
+describe("ServerManager", function(){
+  describe("create Server instance", function(){
+    it.only("Should create new server", function(done){
+      ServerManager.createNewServer(username, title, function(err, party){
+        console.log(party);
+        if(err) { return done(err);}
+        Gparty = party;
+        done();
+      });
     });
-    describe("create new server", function () {
-        it("Should create a new server for a player", function (done) {
-            var user = {username: "testMe" };
-            ServerManager.createServer(user, function (err, serverPort) {
-                if(err){ return assert.notOk(err);}
-
-                assert.equal(typeof serverObject.port, "number");
-                done();
-
-
-            });
-        });
+  });
+  describe("delete server instance", function(){
+    it("Should delete server with port", function(done){
+      Gparty.server.kill();
+      done();
     });
-
-
+  });
 });

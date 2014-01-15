@@ -13,8 +13,8 @@ var app = express();
 
 // all environments
 app.set('port', process.env.PORT || 3000);
+app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
@@ -26,34 +26,16 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
-if ('development' == app.get('env')) {
+if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
-
-app.get('/', function (req, res) {
-  res.write("Freeciv-web websocket proxy, port: " + app.get('port'));
-  res.end();
-
+app.get('/', function(req, res){
+  res.render('login');
 });
 
-app.get('/status', function (req, res) {
-  res.write("getStatus");
-  res.end();
-
+app.get('/register', function(req, res){
+  res.render('register');
 });
-app.get('/testServer', function(req, res){
-  var Manager = require("./server/civ/ServerManager");
-  Manager.getInstance(function(err, instance){
-  });
-});
-app.get("/test", function(req, res){
-    var Server = require("./server/civ/CivServerController.js");
-    var instance = new Server(10000);
-    console.log(instance.getPid());
-    instance.kill();
-});
-
-app.get('/CivclientLauncher', launcher.index);
 
 var server = http.createServer(app);
 server.listen(app.get('port'), function () {

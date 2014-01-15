@@ -1,78 +1,72 @@
 "use strict";
-/**
- * @class singleton : Manage freeciv-server instance
- */
-var controller = require("./CivServerController.js");
+
+var CivServerController = require("./CivServerController.js");
 var instance,
-    portMin,
-    portMax,
-    dataManager;
-/**
- *
- * @param {Number} portMin
- * @param {Number} portMax
- * @constructor
- */
-function ServerManager(portMin, portMax) {
-    this.portMin = portMin;
-    this.portMax = portMax;
-    this.dataManager = [];
-    this.dataManager.length = this.portMax - this.portMin;
-}
-/**
- * @method return the manager instance
- * @param {Function} cb return [err, managerInstance]
- */
-module.exports.getInstance = function (cb) {
-    if (this.instance === undefined) {
-        this.instance = new ServerManager(10000, 11000);
-    }
-    cb(null, this.instance);
-};
+  portMin = 10000,
+  portMax = 10010,
+  dataManager = [];
+
+dataManager.length = portMax - portMin;
 
 /**
- * @method create a new server
- * @param {Object} user object
- * @param {Function} cb [err, port]
- */
-module.exports.createServer = function (user, cb) {
-    this.instance.getFreeResource(user.username, function (err, port) {
-        if (err) {
-            return cb(err);
-        }
-        this.instance.startNewServer(port, function (err, ok) {
-            if (err) {
-                return cb(err);
-            }
-            cb(null, port);
-        });
-    });
-
-};
-/**
- * @method : get a free port from the datamanager
+ * @method create new server instance
  * @param {String} username
- * @param {Function} cb [err, port]
+ * @param {String} title - party title
+ * @param {Function} cb callback [err, party]
  */
-ServerManager.prototype.getFreeResource = function (username, cb) {
-    for (var i = 0; i < this.dataManager.length; i++) {
-        if (this.dataManager[i] === null) {
-            this.dataManager[i] = {
-                "username": username
-            };
-            cb(null, this.dataManager[i] + this.portMin);
-        }
+module.exports.createNewServer = function (username, title, cb) {
+  getFreePort(function (err, port) {
+    if (err) { return cb(err);}
+    var server = new CivServerController(port);
+    var pid = server.getPid();
+
+    var party = {
+      "title"   : title,
+      "username": username,
+      "server"  : server,
+      "pid"     : pid,
+      "port"    : port
+    };
+
+    dataManager[port - portMin] = party
+    cb(null, party);
+
+  });
+};
+
+/**
+ * @method remove a server instance with is TCP port
+ * @param {Number} port
+ * @param {Function} cb callback [err, {Number} pid]
+ */
+module.exports.removeServerWithPort = function (port, cb) {
+  getPartyAt(port - portMin, function (err, party) {
+    if (err) {return cb(err);}
+    party.server.kill();
+    dataManager[port - portMin] = undefined;
+    cb(null, party.pid);
+  });
+};
+
+/**
+ * @method return a free port from datamanager
+ * @param {Function} cb callback [err, {Number} port]
+ */
+function getFreePort(cb) {
+  for (var i = 0; i < dataManager.length; i++) {
+    if (dataManager[i] === undefined) {
+      dataManager[i] = "res";
+      return cb(null, i + portMin);
     }
-    cb("dataManager full");
-};
+  }
+  cb("datamanager full");
+}
 
-ServerManager.prototype.startNewServer = function (port, cb) {
-    var serverControl = new controller(port);
-    updateDataManagerByport(serverControl, port, function (err, res) {
-        if (err) {
-            return cb(err);
-        }
-        cb(null, res);
-    });
-};
-
+/**
+ * @method return party object from datamanager
+ * @param {Number} position
+ * @param {Function} cb callback [err, {Object} party]
+ */
+function getPartyAt(position, cb) {
+  cb(null, dataManager[position]);
+}

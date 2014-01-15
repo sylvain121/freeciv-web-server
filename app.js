@@ -8,6 +8,7 @@ var WebSocketServer = require('ws').Server;
 var http = require('http');
 var path = require('path');
 var launcher = require('./routes/civLauncher');
+var ui = require('./routes/UserInterface');
 
 var app = express();
 
@@ -20,7 +21,7 @@ app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
-app.use(express.cookieParser('your secret here'));
+app.use(express.cookieParser('ZEFRZERZEQ45dscqec@'));
 app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
@@ -36,6 +37,11 @@ app.get('/', function(req, res){
 app.get('/register', function(req, res){
   res.render('register');
 });
+<<<<<<< HEAD
+=======
+
+app.get('/login', ui.login);
+>>>>>>> a0297d7c971d2a65339aa3506fb52151a0965483
 
 var server = http.createServer(app);
 server.listen(app.get('port'), function () {

@@ -21,8 +21,12 @@ app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(express.methodOverride());
-app.use(express.cookieParser('ZEFRZERZEQ45dscqec@'));
-app.use(express.session());
+app.use(express.cookieParser());
+app.use(express.bodyParser());
+app.use(express.session({
+    "secret": "QRGFESRGESRG",
+    "store":  new express.session.MemoryStore({ reapInterval: 60000 * 10 })
+}));
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -30,6 +34,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+function requireLogin (req, res, next) {
+    if (req.session.username) {
+        next();
+    } else {
+        // Otherwise, we redirect him to login form
+        res.redirect("/");
+    }
+}
+
 
 app.get('/', function (req, res) {
   res.write("Freeciv-web websocket proxy, port: " + app.get('port'));
@@ -37,7 +50,7 @@ app.get('/', function (req, res) {
 
 });
 
-app.get('/status', function (req, res) {
+app.get('/status',[requireLogin], function (req, res) {
   res.write("getStatus");
   res.end();
 

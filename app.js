@@ -43,19 +43,15 @@ function requireLogin (req, res, next) {
     }
 }
 
-
-app.get('/', function (req, res) {
-  res.write("Freeciv-web websocket proxy, port: " + app.get('port'));
-  res.end();
-
-});
+app.use(require('./server/players'));
 
 app.get('/status',[requireLogin], function (req, res) {
-  res.write("getStatus");
+  res.write("Freeciv-web websocket proxy, port: " + app.get('port'));
   res.end();
+});
 
 app.get('/', function(req, res){
-  res.render('login');
+  res.render('index');
 });
 
 app.get('/register', function(req, res){

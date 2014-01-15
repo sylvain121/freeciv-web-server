@@ -34,7 +34,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
-<<<<<<< HEAD
 function requireLogin (req, res, next) {
     if (req.session.username) {
         next();
@@ -55,20 +54,13 @@ app.get('/status',[requireLogin], function (req, res) {
   res.write("getStatus");
   res.end();
 
-=======
 app.get('/', function(req, res){
   res.render('login');
 });
 
 app.get('/register', function(req, res){
   res.render('register');
->>>>>>> ad235c4de31e3321658b7b3931567437710a5d3a
 });
-<<<<<<< HEAD
-=======
-
-app.get('/login', ui.login);
->>>>>>> a0297d7c971d2a65339aa3506fb52151a0965483
 
 var server = http.createServer(app);
 server.listen(app.get('port'), function () {

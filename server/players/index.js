@@ -8,7 +8,7 @@ app.get('/player/register', function(req, res){
     email: req.body.email
   };
 
-  Player.registerNewUser(player, function(err, info){
+  Player.registerNewPlayer(player, function(err, info){
     if(err) { throw err;}
     res.send(info);
   });

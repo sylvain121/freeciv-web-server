@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7badef4-b672-48a3-bda4-269df717f256" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/database/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/freeciv.sqlite" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/freecivTest.sqlite" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/database/player.test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/database/microdb.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server/players/playerData.js" afterPath="$PROJECT_DIR$/server/players/player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/UserInterface.js" afterPath="$PROJECT_DIR$/routes/UserInterface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/database/currentGames.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/database/currentGames.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/players/players.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/database/sqlError.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/freecivTest.sqlite" afterPath="$PROJECT_DIR$/db/freecivTest.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/players/index.js" afterPath="$PROJECT_DIR$/server/players/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/database/players.js" afterPath="$PROJECT_DIR$/server/database/players.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/register.ejs" afterPath="$PROJECT_DIR$/views/register.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/players/player.js" afterPath="$PROJECT_DIR$/server/players/player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="freecivWebNode.iws" />
@@ -39,16 +35,16 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/players/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="7" column="25" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/register.ejs">
+      <file leaf-file-name="players.test.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/players/players.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="42" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="660">
+            <state line="28" column="64" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -57,7 +53,16 @@
       <file leaf-file-name="player.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/players/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.11891279" vertical-offset="0" max-vertical-offset="883">
+            <state line="11" column="70" selection-start="370" selection-end="370" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="649">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlError.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/database/sqlError.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="39" selection-start="112" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -102,16 +107,18 @@
         <option value="$PROJECT_DIR$/server/database/players.js" />
         <option value="$PROJECT_DIR$/tests/database/player.test.js" />
         <option value="$PROJECT_DIR$/views/register.ejs" />
-        <option value="$PROJECT_DIR$/server/players/player.js" />
         <option value="$PROJECT_DIR$/server/players/index.js" />
+        <option value="$PROJECT_DIR$/tests/database/currentGames.test.js" />
+        <option value="$PROJECT_DIR$/server/database/currentGames.js" />
+        <option value="$PROJECT_DIR$/server/database/sqlError.js" />
+        <option value="$PROJECT_DIR$/tests/players/players.test.js" />
+        <option value="$PROJECT_DIR$/server/players/player.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="25" />
-    <option name="width" value="1922" />
-    <option name="height" value="1059" />
+    <option name="width" value="1280" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -139,7 +146,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,7 +192,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="players" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -204,7 +210,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="civ" />
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freeciv-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freeciv-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,7 +274,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="games" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,7 +288,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv" />
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,6 +312,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,6 +323,9 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/database" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/games" />
     </key>
@@ -344,6 +372,23 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e7badef4-b672-48a3-bda4-269df717f256" name="Default" comment="" />
@@ -353,14 +398,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1922" height="1059" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="776" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24697208" sideWeight="0.672496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22691706" sideWeight="0.672496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -395,11 +440,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/database/players.js">
+    <entry file="file://$PROJECT_DIR$/views/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="630">
+        <state line="23" column="42" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/players/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/currentGames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="58" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/database/currentGames.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="3" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/database/player.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="0" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/players/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/players/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/players.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="4" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="630" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -409,23 +498,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="35" column="7" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/database/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="8" column="53" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/database/players.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="570">
-          <folding />
-        </state>
+        <state line="29" column="22" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/players/index.js">
@@ -442,23 +525,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="35" column="7" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/database/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="8" column="53" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/database/players.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="210" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="570">
-          <folding />
-        </state>
+        <state line="15" column="16" selection-start="210" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/players/index.js">
@@ -475,9 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="34" column="7" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/players/index.js">
@@ -579,37 +654,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/database/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.40770102" vertical-offset="0" max-vertical-offset="883">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.40770102" vertical-offset="0" max-vertical-offset="883" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/database/players.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="2" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/database/player.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.3567384" vertical-offset="0" max-vertical-offset="883">
-          <folding />
-        </state>
+        <state line="43" column="2" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="23" column="42" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/civ/ServerManager.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="3" selection-start="680" selection-end="680" vertical-scroll-proportion="0.4416761" vertical-offset="0" max-vertical-offset="883">
-          <folding />
-        </state>
+        <state line="26" column="3" selection-start="680" selection-end="680" vertical-scroll-proportion="0.4416761" vertical-offset="0" max-vertical-offset="883" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/database/currentGames.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="67" selection-start="0" selection-end="1601" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/currentGames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="43" selection-start="765" selection-end="765" vertical-scroll-proportion="0.517611" vertical-offset="232" max-vertical-offset="885" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/players/index.js">
@@ -619,9 +689,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/database/player.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="71" selection-start="499" selection-end="499" vertical-scroll-proportion="0.26493108" vertical-offset="82" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/sqlError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="112" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/players/players.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="64" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/players/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.11891279" vertical-offset="0" max-vertical-offset="883">
+        <state line="11" column="70" selection-start="370" selection-end="370" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="649">
           <folding />
         </state>
       </provider>

@@ -31,10 +31,10 @@ describe("#player.js", function () {
                 email: "test@test.com"
             };
             Player.registerNewPlayer(player, function (err, ok) {
-                if (ok) {
+              if (ok) {
                     return done(ok);
                 }
-                assert.deepEqual("username already use", err)
+                assert.deepEqual(err, "username already use");
                 done();
             });
         });

@@ -11,8 +11,8 @@ module.exports.registerNewPlayer = function(player, cb){
     player.password = sha1(player.password); // hash password before storage to database
     playerdb.registerNewPlayer(player, function(err, ok){
        if(err) {
-       error.checkError(err, function(ok){
-          return cb(ok);
+       error.checkError(err.clientError.toString(), function(res){
+          return cb(res.toString());
        });
        }
         cb( null, ok);

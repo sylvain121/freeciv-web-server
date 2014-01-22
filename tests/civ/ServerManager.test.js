@@ -1,3 +1,5 @@
+"use strict";
+
 var assert = require("chai").assert;
 
 var ServerManager = require("../../server/civ/ServerManager");
@@ -7,13 +9,18 @@ var username = "test",
     Gparty;
 
 
+
 describe("ServerManager", function(){
   describe("create Server instance", function(){
-    it.only("Should create new server", function(done){
+    it("Should create new server", function(done){
       ServerManager.createNewServer(username, title, function(err, party){
-        console.log(party);
         if(err) { return done(err);}
         Gparty = party;
+
+        assert.isString(Gparty.title);
+        assert.deepEqual(Gparty.username, username);
+        assert.isNumber(Gparty.pid);
+        assert.isNumber(Gparty.port);
         done();
       });
     });
@@ -24,4 +31,5 @@ describe("ServerManager", function(){
       done();
     });
   });
+
 });

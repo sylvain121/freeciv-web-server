@@ -28,7 +28,7 @@ module.exports.createNewServer = function (username, title, cb) {
       "port"    : port
     };
 
-    dataManager[port - portMin] = party
+    dataManager[port - portMin] = party;
     cb(null, party);
 
   });

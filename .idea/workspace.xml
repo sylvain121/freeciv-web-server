@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7badef4-b672-48a3-bda4-269df717f256" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/database/currentGames.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/database/currentGames.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/players/players.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/database/sqlError.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/freecivTest.sqlite" afterPath="$PROJECT_DIR$/db/freecivTest.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/players/index.js" afterPath="$PROJECT_DIR$/server/players/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/players/player.js" afterPath="$PROJECT_DIR$/server/players/player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="freecivWebNode.iws" />
@@ -53,7 +46,7 @@
       <file leaf-file-name="player.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/players/player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="70" selection-start="370" selection-end="370" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="649">
+            <state line="22" column="41" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -331,6 +324,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -341,23 +342,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -395,6 +388,11 @@
       <created>1388062201568</created>
       <updated>1388062201568</updated>
     </task>
+    <task id="LOCAL-00001" summary="add database connection + test&#10;">
+      <created>1390285897048</created>
+      <updated>1390285897048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -405,7 +403,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22691706" sideWeight="0.672496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22691706" sideWeight="0.672496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -415,9 +413,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -433,6 +432,8 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="add database connection + test&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add database connection + test&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -694,13 +695,6 @@
         <state line="17" column="71" selection-start="499" selection-end="499" vertical-scroll-proportion="0.26493108" vertical-offset="82" max-vertical-offset="855" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/database/sqlError.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="112" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/players/players.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="64" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
@@ -710,7 +704,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/players/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="70" selection-start="370" selection-end="370" vertical-scroll-proportion="0.2542373" vertical-offset="0" max-vertical-offset="649">
+        <state line="22" column="41" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/sqlError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="112" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>

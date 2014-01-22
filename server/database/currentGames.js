@@ -22,7 +22,7 @@ module.exports = {
     CurrentGames: CurrentGames,
 
     /**
-     * @method get running game for a user with is player_id
+     * @method get running game for a user with his player_id
       * @param {Number}  : player_id
      * @param {Function} : callback [err, Array<games>]
      */
@@ -32,6 +32,18 @@ module.exports = {
       .where({"player_id": id})
       .exec(cb);
 
+  },
+
+    /**
+     * @method return a rennning game with his port
+      * @param {Number} port TCP port
+     * @param {Function} callback [err, Array<res>]
+     */
+  getGameByPort : function(port, cb){
+      new CurrentGame()
+          .query()
+          .where({"port": port})
+          .exec(cb);
   },
     /**
      * @method add a new game for a player_id

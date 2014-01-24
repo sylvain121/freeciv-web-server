@@ -18,22 +18,35 @@ var Players = Bookshelf.Collection.extend({
 
 module.exports = {
 
-  Player : Players,
+  Player : Player,
   Players: Players,
 
   getPlayerByUsername: function (username, cb) {
     new Player()
       .query()
       .where({"username": username})
-      .exec(cb);
+      .then(function (players) {
+        cb(null, players[0]);
+      })
+      .otherwise(cb);
 
   },
-  registerNewPlayer  : function (player, cb) {
+  getPlayerBySid     : function (sid, cb) {
+    new Player()
+      .query()
+      .where({"sid": sid})
+      .then(function (players) {
+        cb(null, players[0]);
+      })
+      .otherwise(cb);
+
+  },
+  savePlayer         : function (player, cb) {
     new Player(player)
       .save()
       .exec(cb);
   },
-  deletePlayer : function(username, cb){
+  deletePlayer       : function (username, cb) {
     new Player()
       .query()
       .where({"username": username})

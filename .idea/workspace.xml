@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7badef4-b672-48a3-bda4-269df717f256" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/database/currentGames.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/database/currentGames.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/games/gamesManager.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/players/players.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/database/sqlError.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/games/GamesManager.js" afterPath="$PROJECT_DIR$/server/games/GamesManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/civ/ServerManager.js" afterPath="$PROJECT_DIR$/server/civ/ServerManager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/civ/ServerManager.test.js" afterPath="$PROJECT_DIR$/tests/civ/ServerManager.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/defaultMain.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/freeciv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/games/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/navbar.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partyComponent.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partyManager.ejs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/database/db.js" afterPath="$PROJECT_DIR$/server/database/db.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/freecivTest.sqlite" afterPath="$PROJECT_DIR$/db/freecivTest.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/head.ejs" afterPath="$PROJECT_DIR$/views/head.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/players/index.js" afterPath="$PROJECT_DIR$/server/players/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/players/player.js" afterPath="$PROJECT_DIR$/server/players/player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/database/player.test.js" afterPath="$PROJECT_DIR$/tests/database/player.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/database/players.js" afterPath="$PROJECT_DIR$/server/database/players.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/players/players.test.js" afterPath="$PROJECT_DIR$/tests/players/players.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/database/sqlError.js" afterPath="$PROJECT_DIR$/server/database/sqlError.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="freecivWebNode.iws" />
@@ -60,28 +68,35 @@
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/public/index..html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/routes/UserInterface.js" />
         <option value="$PROJECT_DIR$/server/database/microdb.js" />
         <option value="$PROJECT_DIR$/server/players/playerData.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/views/head.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/server/database/db.js" />
-        <option value="$PROJECT_DIR$/server/database/players.js" />
-        <option value="$PROJECT_DIR$/tests/database/player.test.js" />
         <option value="$PROJECT_DIR$/views/register.ejs" />
-        <option value="$PROJECT_DIR$/server/players/index.js" />
         <option value="$PROJECT_DIR$/tests/database/currentGames.test.js" />
         <option value="$PROJECT_DIR$/server/database/currentGames.js" />
-        <option value="$PROJECT_DIR$/server/database/sqlError.js" />
-        <option value="$PROJECT_DIR$/server/players/player.js" />
-        <option value="$PROJECT_DIR$/tests/players/players.test.js" />
         <option value="$PROJECT_DIR$/server/civ/ServerManager.js" />
         <option value="$PROJECT_DIR$/tests/games/GamesManager.test.js" />
         <option value="$PROJECT_DIR$/tests/games/gamesManager.test.js" />
         <option value="$PROJECT_DIR$/tests/civ/ServerManager.test.js" />
         <option value="$PROJECT_DIR$/server/games/GamesManager.js" />
+        <option value="$PROJECT_DIR$/views/partyManager.ejs" />
+        <option value="$PROJECT_DIR$/views/defaultMain.ejs" />
+        <option value="$PROJECT_DIR$/server/database/db.js" />
+        <option value="$PROJECT_DIR$/server/database/sqlError.js" />
+        <option value="$PROJECT_DIR$/server/database/players.js" />
+        <option value="$PROJECT_DIR$/tests/database/player.test.js" />
+        <option value="$PROJECT_DIR$/tests/players/players.test.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/server/games/index.js" />
+        <option value="$PROJECT_DIR$/views/navbarLoged.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/head.ejs" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/server/players/player.js" />
+        <option value="$PROJECT_DIR$/views/navbar.ejs" />
+        <option value="$PROJECT_DIR$/server/players/index.js" />
+        <option value="$PROJECT_DIR$/public/freeciv.js" />
       </list>
     </option>
   </component>
@@ -116,7 +131,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,194 +149,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="players" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="games" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="civ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="players" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="games" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="civ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="freeciv-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,6 +163,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/server/games" />
       <recent name="$PROJECT_DIR$/server/database" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -411,21 +242,21 @@
     <frame x="0" y="26" width="1920" height="1054" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22667369" sideWeight="0.672496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22667369" sideWeight="0.672496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32583067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32596686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281768" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -453,70 +284,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/database/currentGames.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="58" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="735" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/database/currentGames.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="3" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/database/player.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="0" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="855" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/players/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/register.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/players/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/database/players.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="4" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/register.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/database/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/database/players.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="22" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/players/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -541,9 +311,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/players/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -558,9 +326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/players/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -598,11 +364,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/websocket/webSocket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="117" selection-end="117" vertical-scroll-proportion="0.22727273" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/civLauncher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="4" selection-start="15" selection-end="15" vertical-scroll-proportion="0.07575758" vertical-offset="0" max-vertical-offset="0" />
@@ -618,21 +379,6 @@
         <state line="12" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.18018018" vertical-offset="0" max-vertical-offset="999" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="89" selection-start="532" selection-end="532" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.779661" vertical-offset="315" max-vertical-offset="1200" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/freeciv.sqlite">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
@@ -643,101 +389,169 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/database/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.40770102" vertical-offset="0" max-vertical-offset="883" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/database/players.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="2" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/register.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="42" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="660" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/players/index.js">
+    <entry file="file://$PROJECT_DIR$/server/civ/CivServerController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="6" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/civ/ServerManager.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="277" selection-end="277" vertical-scroll-proportion="0.23863636" vertical-offset="0" max-vertical-offset="880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/civ/ServerManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="15" selection-start="366" selection-end="366" vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="1155" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/currentGames.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="43" selection-start="765" selection-end="765" vertical-scroll-proportion="0.98275864" vertical-offset="0" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/games/gamesManager.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/database/currentGames.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="49" selection-start="718" selection-end="718" vertical-scroll-proportion="0.5344828" vertical-offset="65" max-vertical-offset="945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/games/GamesManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="189" selection-end="189" vertical-scroll-proportion="0.12931034" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partyManager.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partyComponent.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/defaultMain.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="19" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.94633275" vertical-offset="161" max-vertical-offset="780" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ejs/examples/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="38" selection-end="38" vertical-scroll-proportion="0.12820514" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/websocket/webSocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="262" selection-end="266" vertical-scroll-proportion="0.25641027" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/players/player.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/knex/node_modules/bluebird/js/main/async.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="472" selection-end="474" vertical-scroll-proportion="0.23863636" vertical-offset="0" max-vertical-offset="880">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.3846154" vertical-offset="930" max-vertical-offset="1515" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/knex/clients/server/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="21" selection-start="2811" selection-end="2811" vertical-scroll-proportion="0.7948718" vertical-offset="600" max-vertical-offset="1965" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/database/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="168" selection-end="168" vertical-scroll-proportion="0.20512821" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/database/sqlError.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="92" selection-end="92" vertical-scroll-proportion="0.06818182" vertical-offset="0" max-vertical-offset="880">
-          <folding />
-        </state>
+        <state line="13" column="50" selection-start="325" selection-end="325" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/civ/CivServerController.js">
+    <entry file="file://$PROJECT_DIR$/server/database/players.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+        <state line="40" column="21" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/database/player.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+        <state line="58" column="10" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.58833617" vertical-offset="527" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/players/players.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="286" selection-end="466" vertical-scroll-proportion="0.17045455" vertical-offset="0" max-vertical-offset="880">
+        <state line="18" column="26" selection-start="493" selection-end="493" vertical-scroll-proportion="0.22813036" vertical-offset="137" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/civ/ServerManager.test.js">
+    <entry file="file://$PROJECT_DIR$/server/games/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="277" selection-end="277" vertical-scroll-proportion="0.23863636" vertical-offset="0" max-vertical-offset="880">
+        <state line="14" column="25" selection-start="308" selection-end="308" vertical-scroll-proportion="0.36020583" vertical-offset="0" max-vertical-offset="583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="43" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.6689537" vertical-offset="315" max-vertical-offset="1290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="80" selection-end="80" vertical-scroll-proportion="0.080213904" vertical-offset="0" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/civ/ServerManager.js">
+    <entry file="file://$PROJECT_DIR$/public/jumbotron.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="15" selection-start="366" selection-end="366" vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="1155">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/database/currentGames.js">
+    <entry file="file://$PROJECT_DIR$/server/players/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="43" selection-start="765" selection-end="765" vertical-scroll-proportion="0.98275864" vertical-offset="0" max-vertical-offset="885">
+        <state line="27" column="20" selection-start="732" selection-end="732" vertical-scroll-proportion="0.5368782" vertical-offset="92" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/games/gamesManager.test.js">
+    <entry file="file://$PROJECT_DIR$/views/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="21" column="28" selection-start="795" selection-end="795" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/database/currentGames.test.js">
+    <entry file="file://$PROJECT_DIR$/public/freeciv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="49" selection-start="718" selection-end="718" vertical-scroll-proportion="0.5344828" vertical-offset="65" max-vertical-offset="945">
+        <state line="19" column="2" selection-start="408" selection-end="408" vertical-scroll-proportion="0.48885077" vertical-offset="0" max-vertical-offset="583">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/games/GamesManager.js">
+    <entry file="file://$PROJECT_DIR$/server/players/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="189" selection-end="189" vertical-scroll-proportion="0.12931034" vertical-offset="0" max-vertical-offset="580">
+        <state line="47" column="36" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.81989706" vertical-offset="227" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/navbar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="1216" selection-end="1216" vertical-scroll-proportion="0.56350625" vertical-offset="0" max-vertical-offset="559">
           <folding />
         </state>
       </provider>

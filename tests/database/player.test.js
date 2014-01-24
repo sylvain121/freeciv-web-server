@@ -14,7 +14,7 @@ describe("#player", function(){
         email: "test@test.com"
       };
 
-      Player.registerNewPlayer(player, function(err, ok){
+      Player.savePlayer(player, function(err, ok){
         if(err){ return done(err);}
         assert.ok(ok);
         done();
@@ -28,15 +28,32 @@ describe("#player", function(){
         username: "testusr",
         password: "testpwd",
         admin: 0,
-        email: "test@test.com"
+        email: "test@test.com",
+        sid: null
       };
       Player.getPlayerByUsername("testusr", function(err, ok){
         if(err){ return done(err);}
-        ok = _.omit(ok[0], "id"); // id is unknown for tests
+        ok = _.omit(ok, "id"); // id is unknown for tests
         assert.deepEqual(expected, ok);
         done();
 
       });
+    });
+  });
+  describe("update player sid", function(){
+    it("Should update player database by updating sid", function(done){
+      Player.getPlayerByUsername("testusr", function(err, player){
+        player.sid = " test session id";
+        _.omit(player, "password");
+        Player.savePlayer(player, function(err, ok){
+          if(err){
+            return done(err);
+          }
+          assert.ok(ok);
+          done();
+        });
+      });
+
     });
   });
   describe("delete a player", function(){

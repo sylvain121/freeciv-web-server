@@ -6,7 +6,7 @@ var
 var config = {
                 client    : 'sqlite3',
                 connection: {
-                  filename: '../../db/freecivTest.sqlite'
+                  filename:'./db/freecivTest.sqlite'
                 }
                 //"debug"   : true
               };

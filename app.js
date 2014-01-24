@@ -4,6 +4,7 @@
  */
 
 var express = require('express');
+var namespace = require('express-namespace');
 var WebSocketServer = require('ws').Server;
 var http = require('http');
 var path = require('path');
@@ -35,15 +36,19 @@ if ('development' === app.get('env')) {
   app.use(express.errorHandler());
 }
 function requireLogin (req, res, next) {
-    if (req.session.username) {
+    if (req.session.player) {
         next();
     } else {
-        // Otherwise, we redirect him to login form
         res.redirect("/");
     }
 }
 
-app.use(require('./server/players'));
+// authenticated zone
+app.namespace('/connected',[requireLogin],  function(){
+  app.use(require('./server/games/index'));
+});
+// player register/login/logout
+app.use(require('./server/players/index'));
 
 app.get('/status',[requireLogin], function (req, res) {
   res.write("Freeciv-web websocket proxy, port: " + app.get('port'));
@@ -57,6 +62,7 @@ app.get('/', function(req, res){
 app.get('/register', function(req, res){
   res.render('register');
 });
+
 
 var server = http.createServer(app);
 server.listen(app.get('port'), function () {

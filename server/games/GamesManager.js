@@ -7,8 +7,8 @@ var currentGames = require("../database/currentGames"),
  * @param player
  * @param cb
  */
-module.exports.startNewGameforPlayer = function (player, cb) {
-  serverManager.createNewServer(player.username, function (err, party) {
+module.exports.startNewGameforPlayer = function (player, title, cb) {
+  serverManager.createNewServer(player.username, title, function(err, party) {
     if (err) {
       return cb(err);
     }
@@ -22,4 +22,13 @@ module.exports.startNewGameforPlayer = function (player, cb) {
       cb(null, party);
     });
   });
+};
+
+/**
+ * @method remove a game for selected player
+ * @param {Object} player oblect
+ * @param {Function} callback [err, ok]
+ */
+module.exports.removeGameForPlayer = function(player, cb){
+
 };

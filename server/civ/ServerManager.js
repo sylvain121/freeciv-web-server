@@ -1,6 +1,7 @@
 "use strict";
 
-var CivServerController = require("./CivServerController.js");
+var CivServerController = require("./CivServerController.js")
+    ;
 var instance,
   portMin = 10000,
   portMax = 10010,

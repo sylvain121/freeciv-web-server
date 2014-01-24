@@ -42,6 +42,15 @@ describe("#CurrentGames", function () {
                 done();
             });
         });
+        it("Should return a running game by the port", function(done){
+           CurrentGames.getGameByPort(10000, function(err, res){
+              if(err){
+                  return done(err);
+              }
+               assert.deepEqual(res[0].port, 10000);
+               done();
+           });
+        });
     });
     describe("delete a game", function () {
         it("Should un-register a games", function (done) {
